@@ -1,0 +1,72 @@
+.card-body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #1c1c1c;
+  margin: 0;
+  padding: 0;
+}
+
+.course-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.course-title {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.course-title span {
+  color: #ff007f;
+}
+
+.modules-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.module {
+  background-color: #1c1c1c;
+  border: 1px solid #00aaff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.module h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: start;
+  color: #fff;
+}
+
+.module h3 span {
+  color: #00aaff;
+}
+
+.module ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.module ul li {
+  margin-bottom: 10px;
+  text-align: start;
+  margin-left: 20px;
+  color: #fff;
+  list-style: circle;
+}
+
+/* Mobile Styling */
+@media (max-width: 768px) {
+  .modules-container {
+    grid-template-columns: 1fr;
+  }
+
+  .module h3 {
+    margin-bottom: 30px;
+  }
+}

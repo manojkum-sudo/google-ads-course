@@ -1,0 +1,107 @@
+/* Container */
+.certification-container {
+  text-align: center;
+  background-color: #142850;
+  color: white;
+  padding: 40px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Title */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #fffa65;
+}
+
+/* Certificate Image */
+.certificate-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.certificate-image {
+  max-width: 60%;
+  height: auto;
+  border: 5px solid #dcdcdc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* CTA Text */
+.cta-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* CTA Button */
+.cta-button {
+  background-color: #f57c00;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.cta-button:hover {
+  background-color: #e65100;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .certificate-image {
+    max-width: 80%;
+  }
+
+  .cta-button {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .certificate-image {
+    max-width: 90%;
+  }
+
+  .cta-button {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}
