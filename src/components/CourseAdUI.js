@@ -4,11 +4,11 @@ import "./CourseAdUI.css"; // For styling
 const CourseAdUI = () => {
   return (
     <div className="course-ad-container">
-      <header className="header">
-        <p className="course-image">Advanced Google Ads Using AI Tools</p>
+      <header className="headerr">
+        <p className="course-imagee">Advanced Google Ads Using AI Tools</p>
         <h1>
           Get{" "}
-          <span className="highlight">
+          <span className="highlightw">
             10X Website Traffic, Leads and Sales
           </span>{" "}
           for Your Business and Unlock Your Career{" "}

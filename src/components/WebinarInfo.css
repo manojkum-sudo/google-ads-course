@@ -42,15 +42,16 @@
 }
 
 .card {
-  background-color: #f5f6fa;
-  border-radius: 8px;
+  background-color: transparent;
+  background-image: linear-gradient(210deg, #f0f0f0 0%, #ffffff 100%);
+  border-radius: 10px;
   padding: 15px;
   margin: 10px;
   width: 45%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
-  border: 1px solid #d2dae2;
+  border: 1px solid #dadada;
 }
 
 .card img {

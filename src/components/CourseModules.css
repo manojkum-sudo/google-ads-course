@@ -29,7 +29,7 @@
 }
 
 .module {
-  background-color: #1c1c1c;
+  background-color: #152450;
   border: 1px solid #00aaff;
   border-radius: 10px;
   padding: 20px;
@@ -44,7 +44,7 @@
 }
 
 .module h3 span {
-  color: #00aaff;
+  color: #ebef06;
 }
 
 .module ul {

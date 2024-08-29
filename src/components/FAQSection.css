@@ -1,0 +1,146 @@
+/* Main Container */
+.main-Text {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+/* FAQ Container */
+.faq-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* FAQ Heading */
+.faq-container h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+/* FAQ List */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+/* FAQ Item */
+.faq-item {
+  background-color: #152450;
+  border-radius: 10px;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Active FAQ Item */
+.faq-item.active {
+  background-color: #f0ad4e;
+  color: #fff;
+}
+
+/* FAQ Question */
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* FAQ Icon */
+.faq-icon {
+  font-size: 1.5em;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate the icon when active */
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}
+
+/* FAQ Answer */
+.faq-answer {
+  margin-top: 15px;
+  text-align: left;
+  color: inherit;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease, padding 0.3s ease;
+}
+
+/* When active, show the answer */
+.faq-item.active .faq-answer {
+  height: auto;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* FAQ Item Hover */
+.faq-item:hover {
+  background-color: #f0ad4e;
+}
+
+/* Responsive Design for Tablet */
+@media (max-width: 768px) {
+  .faq-container {
+    padding: 15px;
+  }
+
+  .faq-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .faq-question {
+    font-size: 1.1em;
+    text-align: start;
+  }
+
+  .faq-icon {
+    font-size: 1.2em;
+  }
+  .faq-item {
+    padding: 10px 15px;
+  }
+
+  .faq-answer {
+    font-size: 0.95em;
+  }
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 480px) {
+  .faq-container {
+    padding: 10px;
+  }
+
+  .faq-container h2 {
+    font-size: 1.3em;
+  }
+
+  .faq-question {
+    font-size: 1em;
+    text-align: start;
+  }
+  .faq-item {
+    padding: 10px 15px;
+  }
+
+  .faq-icon {
+    font-size: 1em;
+  }
+
+  .faq-answer {
+    font-size: 0.9em;
+  }
+}

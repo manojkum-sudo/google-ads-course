@@ -6,6 +6,8 @@ import CertificateSection from "./CertificateSection";
 import MentorProfile from "./MentorProfile";
 import TestimonialTwo from "./TestimonialTwo";
 import WebinarInfo from "./WebinarInfo";
+import PromoSection from "./PromoSection";
+import FAQSection from "./FAQSection";
 
 const Parents = () => {
   return (
@@ -17,6 +19,8 @@ const Parents = () => {
       <MentorProfile />
       <TestimonialTwo />
       <WebinarInfo />
+      <PromoSection />
+      <FAQSection />
     </div>
   );
 };

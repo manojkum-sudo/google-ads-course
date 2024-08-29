@@ -1,97 +1,102 @@
-/* src/components/MentorProfile.css */
+/* InstructorProfile.css */
 
-.mentor-profile {
-  background-color: #fff;
-  color: white;
-  padding: 60px 20px;
+.instructor-profile {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
   text-align: center;
-  font-family: Arial, sans-serif;
 }
 
-.mentor-info h2 {
-  font-size: 36px;
-  margin-bottom: 40px;
-  color: #000;
-}
-
-.mentor-info h2 span {
-  color: #ff007f;
-}
-
-.mentor-details {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.mentor-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  margin-right: 20px;
-  border: 5px solid #00aaff;
-}
-
-.mentor-text {
-  max-width: 500px;
-  text-align: left;
+.titleu {
+  font-size: 28px;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 
-.mentor-text h3 {
-  font-size: 28px;
-  margin-bottom: 5px;
-  font-weight: 500;
-  color: #000;
+.instructor-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.mentor-text p {
-  font-size: 20px;
+.image-container {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
-  color: #000;
 }
 
-.mentor-text ul {
-  list-style-type: none;
-  padding: 0;
+.image-container img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
 
-.mentor-text ul li {
-  font-size: 18px;
-  margin-bottom: 10px;
-  text-align: start;
-  color: #000;
+.details {
+  flex-basis: 75%;
+  text-align: left;
 }
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-  .mentor-details {
+.highlightso {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.highlightp {
+  background-color: #1a2b5f;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  flex-basis: 45%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.description {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.call-to-action h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.ctat-button {
+  background-color: #ff6f00;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ctat-button:hover {
+  background-color: #ff8c00;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .instructor-info {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .details {
     text-align: center;
   }
 
-  .mentor-image {
-    margin-bottom: 20px;
-    width: 150px;
-    height: 150px;
-  }
-
-  .mentor-text {
-    text-align: center;
-  }
-
-  .mentor-text h3 {
-    font-size: 24px;
-    font-weight: 400;
-  }
-
-  .mentor-text p {
-    font-size: 18px;
-  }
-
-  .mentor-text ul li {
-    font-size: 16px;
-    font-weight: 300;
+  .highlightp {
+    flex-basis: 100%;
   }
 }

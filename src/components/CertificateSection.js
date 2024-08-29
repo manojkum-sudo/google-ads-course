@@ -4,7 +4,7 @@ import "./CertificateSection.css"; // Import your CSS file here
 const CertificateSection = () => {
   return (
     <div className="certification-container">
-      <h1 className="title">Become A Certified Google Ads Expert</h1>
+      <h1 className="titlee">Become A Certified Google Ads Expert</h1>
       <p className="subtitle">
         Upon Successful Completion of the Course, You Will Receive Certification
         From iJaipuria, a Renowned Institution That Adds Substantial Credibility

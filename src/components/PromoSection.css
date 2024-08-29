@@ -1,0 +1,74 @@
+.promo-section {
+  background-color: #0b1a45;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.promo-title {
+  color: #ff6819;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.promo-text {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.highlighty {
+  color: #f0ff00;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.ctaa-button {
+  background-color: #ff6819;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.ctaa-button:hover {
+  background-color: #e65c14;
+}
+
+@media (max-width: 768px) {
+  .promo-section {
+    padding: 20px;
+  }
+
+  .promo-title {
+    font-size: 24px;
+  }
+
+  .promo-text {
+    font-size: 16px;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .promo-title {
+    font-size: 20px;
+  }
+
+  .promo-text {
+    font-size: 14px;
+  }
+
+  .ctaa-button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+}

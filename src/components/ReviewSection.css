@@ -1,0 +1,100 @@
+.review-section {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.rating {
+  font-size: 1.5em;
+  color: #ff9800; /* Orange color for stars */
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  font-size: 1em;
+}
+
+.rating-text {
+  font-weight: bold;
+  color: #333;
+}
+
+.reviews {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.message {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+.ctar-button {
+  margin: 20px 0;
+}
+
+.ctar-btn {
+  background-color: #f57c00;
+  color: white;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctar-btn:hover {
+  background-color: #e64a19;
+}
+
+@media (max-width: 768px) {
+  .review-section {
+    padding: 15px;
+  }
+
+  .rating {
+    font-size: 1.3em;
+  }
+
+  .stars {
+    font-size: 1em;
+  }
+
+  .message {
+    font-size: 1em;
+  }
+
+  .ctar-btn {
+    font-size: 1em;
+    padding: 12px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .review-section {
+    padding: 10px;
+  }
+
+  .rating {
+    font-size: 1.2em;
+  }
+
+  .stars {
+    font-size: 1em;
+  }
+
+  .message {
+    font-size: 0.9em;
+  }
+
+  .ctar-btn {
+    font-size: 0.9em;
+    padding: 10px 20px;
+  }
+}
