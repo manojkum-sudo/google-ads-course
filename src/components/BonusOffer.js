@@ -11,8 +11,8 @@ const BonusOffer = () => {
   return (
     <div className="bonuses-wrapper">
       <div className="bonuses-header">
-        <h2>Register before midnight of 26 Aug 2024</h2>
-        <h3>To Unlock All Bonuses 75% OFF</h3>
+        <h2>This offer won’t Last Forever! 75% OFF</h2>
+        {/* <h3>To Unlock All Bonuses 75% OFF</h3> */}
       </div>
       <div className="bonuses-container">
         <div className="bonus-card">

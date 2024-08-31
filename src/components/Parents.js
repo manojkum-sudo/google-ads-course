@@ -12,6 +12,7 @@ import NotificationPopup from "./NotificationPopup";
 import "./Parent.css";
 import Footer from "./Footer";
 import { peopleData } from "./constants";
+import LearningTopics from "./LearningTopics";
 
 const Parents = () => {
   const [showOfferSection, setShowOfferSection] = useState(false);
@@ -64,6 +65,7 @@ const Parents = () => {
   return (
     <div>
       <CourseAdUI />
+      <LearningTopics />
       <CourseModules />
       <BonusOffer />
       <CertificateSection />
