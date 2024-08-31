@@ -1,3 +1,21 @@
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .container {
   text-align: center;
   padding: 20px 100px;
@@ -80,13 +98,15 @@
 }
 
 .price-button {
-  background-color: #ff8c00;
+  background-color: #ff6819;
   color: #ffffff;
   padding: 15px 30px;
   border: none;
   border-radius: 5px;
   font-size: 18px;
   cursor: pointer;
+  animation: shake 0.9s infinite;
+  animation-delay: 2s;
 }
 
 /* Responsive design for mobile */

@@ -38,7 +38,7 @@ const CourseAdUI = () => {
       </section>
       <section className="pricing-section">
         <h2>Lifetime Access & Updates</h2>
-        <button className="pricing-button">Get Instant Access At ₹1499!</button>
+        <button className="pricing-button">Get Instant Access At ₹199!</button>
       </section>
       <section className="features-section">
         <ul>

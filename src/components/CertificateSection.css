@@ -1,4 +1,21 @@
-/* Container */
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .certification-container {
   text-align: center;
   background-color: #142850;
@@ -52,7 +69,7 @@
 
 /* CTA Button */
 .cta-button {
-  background-color: #f57c00;
+  background-color: #ff6819;
   color: white;
   padding: 15px 40px;
   border: none;
@@ -61,6 +78,8 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-transform: uppercase;
+  animation: shake 0.9s infinite;
+  animation-delay: 2s;
 }
 
 .cta-button:hover {
