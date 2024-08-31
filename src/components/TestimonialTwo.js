@@ -8,7 +8,7 @@ const TestimonialTwo = ({ username, comment, likes, replies }) => {
   return (
     <>
       <div>
-        <h2 style={{ textAlign: "center" }}>
+        <h2 className="testHead" style={{ textAlign: "center" }}>
           More Than 12,600 Students Have Called It the Best Way to Learn Google
           Ads
         </h2>
@@ -29,10 +29,10 @@ const TestimonialTwo = ({ username, comment, likes, replies }) => {
             {/* <div className="rating">⭐⭐⭐⭐⭐</div> */}
             <h3 className="title">I truely love this course.</h3>
             <p className="comment">
-              This course is ideal for anyone new to video editing. What I
-              appreciated the most was the focus on troubleshooting, which
-              really helped me as a beginner to overcome challenges that might
-              arise during the editing process.
+              This course is perfect for those new to Google Ads. What I found
+              most valuable was the emphasis on troubleshooting, which greatly
+              assisted me as a beginner in overcoming challenges that often
+              arise while managing campaigns.
             </p>
           </div>
 
@@ -53,10 +53,11 @@ const TestimonialTwo = ({ username, comment, likes, replies }) => {
               I even recommend this course to everyone..
             </h3>
             <p className="comment">
-              I’m a beginner and found this course highly engaging. It taught me
-              fresh approaches to creativity in the editing field. I’m excited
-              to apply the skills I’ve gained and would definitely recommend
-              this course to other beginners looking to grow their abilities.
+              As a beginner, I found this Google Ads course incredibly engaging.
+              It introduced me to innovative strategies and techniques in
+              digital advertising. I’m excited to put these new skills into
+              practice and would highly recommend this course to other newcomers
+              who want to enhance their Google Ads expertise.
             </p>
           </div>
 
@@ -75,10 +76,11 @@ const TestimonialTwo = ({ username, comment, likes, replies }) => {
             {/* <div className="rating">⭐⭐⭐⭐⭐</div> */}
             <h3 className="title">Beginners friendly course</h3>
             <p className="comment">
-              Each topic in this course is explained thoroughly, with demos for
-              better understanding. It’s simple to follow and clears up any
-              confusion or doubts. I'm grateful for this course, especially for
-              beginners eager to learn video editing.
+              Each topic in this Google Ads course is explained in detail, with
+              practical demonstrations to enhance understanding. The content is
+              straightforward and addresses any confusion or doubts. I’m
+              grateful for this course, which is especially valuable for
+              beginners eager to master Google Ads.
             </p>
           </div>
         </div>

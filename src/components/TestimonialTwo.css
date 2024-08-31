@@ -8,6 +8,12 @@
   padding: 40px 20px;
 }
 
+.testHead {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .testimonial-card {
   /* background-color: #1e1e2a; */
   border-radius: 10px;
@@ -18,7 +24,7 @@
   min-width: 280px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif;
-  border: 1px solid #152450;
+  border: 1px solid #bdc3c7;
   text-align: start;
 }
 

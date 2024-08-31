@@ -11,166 +11,212 @@ const CourseModules = () => {
         <div className="modules-container">
           <div className="module">
             <h3>
-              Module 1: <span>Course Introduction</span>
+              Module 1: <span>Google Ads Overview</span>
             </h3>
             <ul>
-              <li>Introduction: Meta Ads Mastery</li>
-              <li>Tips to Improve Your Course-Taking Experience</li>
+              <li>Google Ads: Introduction</li>
+              <li>Google Ads Auction</li>
+              <li>Google Ads Account Structure</li>
+              <li>Search Campaign</li>
             </ul>
           </div>
           <div className="module">
             <h3>
-              Module 2: <span>Meta Ads Introduction</span>
+              Module 2: <span>Introduction to Keywords</span>
             </h3>
             <ul>
-              <li>Basics of Facebook Ads/ How It Works</li>
-              <li>Why Everyone Should Run Ads on Facebook</li>
-              <li>Understand the Ads Algorithm</li>
-              <li>Ads Manager Dashboard Walkthrough</li>
-              <li>Pre Requisites of a Successful Campaign</li>
+              <li>Keyword Research</li>
+              <li>Keyword Match Types</li>
+              <li>Negative Keywords</li>
+              <li>Search Terms</li>
             </ul>
           </div>
           <div className="module">
             <h3>
-              Module 3: <span>Facebook Page Setup Basics</span>
+              Module 3: <span> Introduction To Ads & Extensions</span>
             </h3>
             <ul>
-              <li>Facebook Page Section Introduction</li>
-              <li>Set Up Your Facebook Page</li>
-              <li>Page Banner Size</li>
-              <li>Setting the Profile and Brand Image</li>
-              <li>How to Set Up Your Facebook Page Screen Name</li>
-              <li>Facebook Page Call to Action Button and About Section</li>
-              <li>Facebook Page SEO Checklist for Optimization</li>
+              <li>RSA</li>
+              <li>DSA</li>
+              <li>CallAd</li>
+              <li>Ad Extensions</li>
+              <li>Sitelink</li>
+              <li>Call Extension</li>
+              <li>Callout Extension</li>
             </ul>
           </div>
           <div className="module">
             <h3>
-              Module 4: <span>Knowing the Facebook Ads Manager</span>
+              Module 4: <span>Bidding Strategies</span>
             </h3>
             <ul>
-              <li>Meta (Facebook) Business Suite</li>
-              <li>Knowing the Facebook Ads Manager</li>
-              <li>Setting Up a Payment Account for Your Facebook Ads</li>
-              <li>Defining Your Target Audience</li>
-              <li>Buyers/Persona</li>
+              <li>Manual CPC</li>
+              <li>Maximize Clicks</li>
+              <li>Max Conversion</li>
+              <li>Max Conversion Value</li>
+              <li>Target Impression Share</li>
+              <li>Target CPA</li>
+              <li>Target ROAS</li>
+              <li>Enhanced CPC</li>
+              <li>CPM Bidding</li>
+              <li>CPV Bidding</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 5: <span>Introduction to Display Network</span>
+            </h3>
+            <ul>
+              <li>Placements</li>
+              <li>Display Keywords</li>
+              <li>Custom Audiences</li>
+              <li>Combined Audiences</li>
+              <li>Standard Display Campaign</li>
+              <li>Smart Display Campaign</li>
+              <li>Gmail Campaign</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 6: <span>Introduction to Conversion Tracking</span>
+            </h3>
+            <ul>
+              <li>Conversion Tracking Overview</li>
+              <li>Conversion Tracking</li>
+              <li>App Conversion Tracking</li>
+              <li>Phone Conversion Tracking</li>
+              <li>Analytics Conversion Tracking</li>
+              <li>Conversion Action Sets</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 7: <span>Introduction to Remarketing</span>
+            </h3>
+            <ul>
+              <li>Remarketing Overview</li>
+              <li>Audience Manager</li>
+              <li>Remarketing Campaign</li>
+              <li>App Users</li>
+              <li>YouTube Remarket</li>
+              <li>Customer List</li>
+              <li>Custom Combination</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 8: <span>Introduction to Video Ads</span>
+            </h3>
+            <ul>
+              <li>True View In-stream</li>
+              <li>Video Discovery Ad Campaign</li>
+              <li>Video Discovery Ad Campaign Creation Assignment</li>
+              <li>Bumper Ad Campaign</li>
+              <li>Out stream Ad Campaign</li>
+              <li>15 Sec Non Skippable Ad Campaign</li>
+              <li>Ad Sequence Campaign</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 9: <span> Introduction to Shopping Ads</span>
+            </h3>
+            <ul>
+              <li>Shopping Campaign</li>
+              <li>Google Merchant Centre Account</li>
+              <li>Create Shopping Campaign</li>
+              <li>Create Smart Shopping Campaign</li>
+              <li>Performance Max Creation Campaign</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 10:{" "}
+              <span>
+                Introduction to Mobile App Campaign,Smart Campaign, Discovery
+                Campaign
+              </span>
+            </h3>
+            <ul>
+              <li>Universal App Campaign</li>
+              <li>Smart Campaign</li>
+              <li>Discovery Campaign</li>
+              <li>Demand Gen Campaign</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 11: <span>Introduction to Reports</span>
+            </h3>
+            <ul>
+              <li>Generating Predefined Reports for Quick Analytics</li>
+              <li>Creating and Saving Custom Reports for Tailored Insights</li>
+              <li>Designing Dashboards for Real-Time Campaign Monitoring</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 12: <span>Introduction to Shared Library</span>
+            </h3>
+            <ul>
+              <li>Portfolio Bid Strategies</li>
+              <li>Shared Budgets</li>
+              <li>Location Groups</li>
+              <li>Placement Exclusion</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 12: <span>Introduction to Bulk Actions</span>
+            </h3>
+            <ul>
+              <li>Automated Rules</li>
+              <li>Scripts</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 12: <span>Introduction to Planning</span>
+            </h3>
+            <ul>
+              <li>Keyword Planner</li>
+              <li>Ad Preview & Diagnosis</li>
+            </ul>
+          </div>
+
+          <div className="module">
+            <h3>
+              Module 12: <span>Google Ads Certifications</span>
+            </h3>
+            <ul>
               <li>
-                Using All the Power of Facebook Insights to Know Your Target
-                Audience
+                Search Certification: Enhancing Display Network Strategies
               </li>
-              <li>Understanding Placement options of Facebook Ads</li>
-              <li>Understanding the Ad Copy & Copywriting for Facebook Ads</li>
+              <li>Video Certification: Optimizing Video Advertising</li>
+              <li>Shopping Certification: Maximizing E-commerce Presence</li>
+              <li>Measurement Certification: Analyzing Campaign Performance</li>
+              <li>App Certification: Mastering Mobile App Promotion</li>
             </ul>
           </div>
 
           <div className="module">
             <h3>
-              Module 5: <span>Meta Ads Objective</span>
+              <span>Bonus Content</span>
             </h3>
             <ul>
-              <li>Choosing Your Marketing Objective: Awareness</li>
-              <li>Choosing Your Marketing Objective: Consideration</li>
-              <li>Choosing Your Marketing Objective: Conversion</li>
-            </ul>
-          </div>
-
-          <div className="module">
-            <h3>
-              Module 6: <span>Facebook Pixel & Retargeting</span>
-            </h3>
-            <ul>
-              <li>What is Facebook Pixel</li>
-              <li>Creating a Facebook Pixel</li>
-              <li>Installing the Facebook Pixel on Your Website</li>
-              <li>
-                Checking if the Pixel is Working and Capturing Information
-              </li>
-              <li>Creating a Target Audience With Your Facebook Pixel</li>
-              <li>
-                Creating Your First Super Optimised Ad Using Facebook Pixel
-              </li>
-              <li>Conversions API</li>
-            </ul>
-          </div>
-
-          <div className="module">
-            <h3>
-              Module 7: <span>Creating Multiple Meta Ads</span>
-            </h3>
-            <ul>
-              <li>Meta REACH Ad for Business</li>
-              <li>Meta Brand Awareness Ads</li>
-              <li>Meta Engagement Ads</li>
-              <li>Meta Lead Ads</li>
-              <li>Meta Lead Ads Using the Website</li>
-              <li>Meta Traffic Ads</li>
-              <li>Meta Messages Ads</li>
-              <li>Click to WhatsApp Ads</li>
-              <li>Video Ads</li>
-            </ul>
-          </div>
-
-          <div className="module">
-            <h3>
-              Module 8: <span>Facebook Ads for E-Commerce</span>
-            </h3>
-            <ul>
-              <li>Meta REACH Ad for Business</li>
-              <li>Introduction to Facebook Ads for E-Commerce</li>
-              <li>
-                How to Set Up Dynamic Product Ads + Catalog Sales Campaigns
-              </li>
-              <li>ROAS Calculations & Explanations</li>
-              <li>A/B Testing Setup</li>
-            </ul>
-          </div>
-
-          <div className="module">
-            <h3>
-              Module 9: <span>Facebook Reporting, Insights & Optimization</span>
-            </h3>
-            <ul>
-              <li>Ad Relevance + How to Scale Facebook Ads</li>
-              <li>Facebook Tracking + Reporting</li>
-            </ul>
-          </div>
-
-          <div className="module">
-            <h3>
-              Module 10: <span>Meta Ads With AI</span>
-            </h3>
-            <ul>
-              <li>Chat GPT and its applications in marketing</li>
-              <li>Exploring The Synergy Between Chat GPT & Meta Ads</li>
-              <li>
-                Applying Chat GPT To Understand Audience Preferences And
-                Behaviours
-              </li>
-              <li>Crafting Compelling Ad Copy Visuals</li>
-              <li>AI Tools For Meta Ads</li>
-            </ul>
-          </div>
-
-          <div className="module">
-            <h3>
-              Module 11: <span>Getting Success in Facebook Ads</span>
-            </h3>
-            <ul>
-              <li>How to Get Clients for Facebook Ads</li>
-              <li>Thank You Note</li>
-            </ul>
-          </div>
-
-          <div className="module">
-            <h3>
-              Module 12: <span>Bonus Video</span>
-            </h3>
-            <ul>
-              <li>Ads Copy & Audience Research - Using AI</li>
-              <li>Automated Rules In Facebook Ads Campaign</li>
-              <li>Facebook Ads Budget Calculator</li>
-              <li>Facebook Ads Disabled Reason & Recovery</li>
-              <li>Meta Verified Process</li>
+              <li>Creating Google Ads using Bard</li>
+              <li>Creating Google Ads using ChatGPT</li>
+              <li>New Google Ads Dashboard Walkthrough</li>
             </ul>
           </div>
         </div>

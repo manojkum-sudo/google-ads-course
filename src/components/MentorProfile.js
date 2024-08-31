@@ -15,7 +15,7 @@ const MentorProfile = () => {
         </div>
         <div className="details">
           <div className="highlightso">
-            <div className="highlightp"> Managed over 100crs in Ad spend</div>
+            <div className="highlightp"> Managed over 10crs in Ad spend</div>
             <div className="highlightp"> Ex-Google Employee</div>
             <div className="highlightp">
               The portfolio includes the most prestigious B-schools in the
@@ -24,23 +24,24 @@ const MentorProfile = () => {
             <div className="highlightp"> 10+ Years of Industry Experience</div>
           </div>
           <p className="description">
-            Tanmoy Kr. Das is an IIM Kozhikode alumni. He started his career
-            with Google in 2007 as the account manager for Business Industrial
-            Market clients based in the US. He managed Google Ads accounts for
-            small, medium, and large clients and received multiple awards -
-            Impact Award & Gold Award, to name a few.
+            Manoj Sharma, an alumnus of IIM Kozhikode, began his career at
+            Google in 2007 as an account manager for Business Industrial Market
+            clients in the US. During his tenure, he managed Google Ads accounts
+            for a diverse range of clients, from small businesses to large
+            enterprises, and received several accolades, including the Impact
+            Award and Gold Award.
             <br />
             <br />
-            He has taught young professionals Google Ads & Microsoft Ads since
-            2014 and has trained more than 8000 students. He also conducts
-            corporate training on Google Ads for working professionals and
-            senior management.
+            Since 2014, Manoj has been dedicated to educating young
+            professionals on Google Ads and Microsoft Ads, having trained over
+            8,000 students. He also offers corporate training on Google Ads,
+            catering to working professionals and senior management.
           </p>
         </div>
       </div>
       <div className="call-to-action">
-        <h3>START LEARNING FROM TANMOY NOW!</h3>
-        <button className="ctat-button">✔️ Get Instant Access At ₹1499!</button>
+        <h3>START LEARNING FROM MANOJ SHARMA NOW!</h3>
+        <button className="ctat-button">✔️ Get Instant Access At ₹199!</button>
       </div>
     </div>
   );

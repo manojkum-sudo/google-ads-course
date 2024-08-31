@@ -6,9 +6,10 @@ const CertificateSection = () => {
     <div className="certification-container">
       <h1 className="titlee">Become A Certified Google Ads Expert</h1>
       <p className="subtitle">
-        Upon Successful Completion of the Course, You Will Receive Certification
-        From iJaipuria, a Renowned Institution That Adds Substantial Credibility
-        to Your Certificate and Strengthens Your Resume
+        Upon successfully completing the course, you'll receive a certification
+        from Skill to learn, a prestigious institution known for its
+        credibility. This certificate will enhance your resume and add
+        significant value to your professional qualifications.
       </p>
       <div className="certificate-wrapper">
         <img

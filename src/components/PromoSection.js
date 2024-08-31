@@ -6,23 +6,23 @@ const PromoSection = () => {
     <div className="promo-section">
       <h2 className="promo-title">WHAT IS THE BEST PART</h2>
       <p className="promo-text">
-        MANY PEOPLE THINK THAT GOOGLE ADS ARE COMPLICATED TO USE, BUT THIS IS
-        NOT 100% TRUE.
+        Many people believe that Google Ads are complex, but that's not entirely
+        accurate.
         <span className="highlighty">
           {" "}
-          WE WILL SHOW YOU HOW FUN, SIMPLE AND EASY IT IS TO CREATE GOOGLE ADS
+          We'll demonstrate how creating Google Ads can be both enjoyable and
+          straightforward.
         </span>
       </p>
       <p className="promo-text">
-        SIGN UP NOW, AND LET’S START GENERATING MORE SALES, OUTPERFORMING YOUR
-        COMPETITORS, AND EXPONENTIALLY INCREASING YOUR ONLINE PRESENCE WITH
-        GOOGLE ADS!
+        Sign up now to start boosting your sales, outshining your competitors,
+        and rapidly expanding your online presence with Google Ads.
       </p>
       <p className="highlighty">
-        HARNESS THE POWER OF GOOGLE ADS TO SKYROCKET YOUR FUTURE GROWTH!
+        Unlock the potential of Google Ads and watch your future growth soar!
       </p>
       <button className="ctaa-button">
-        <span>Get Instant Access At ₹1499!</span>
+        <span>Get Instant Access At ₹199!</span>
       </button>
     </div>
   );

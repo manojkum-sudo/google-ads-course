@@ -10,10 +10,11 @@ const ReviewSection = () => {
         <span className="reviews">(43,000+ Verified Reviews)</span>
       </div>
       <div className="message">
-        LAST CHANCE TO MASTER GOOGLE ADS FOR INSTANT DIGITAL IMPACT!
+        Seize Your Final Opportunity to Master Google Ads and Achieve Instant
+        Digital Success!
       </div>
       <div className="ctar-button">
-        <button className="ctar-btn">✅ Get Instant Access At ₹1499!</button>
+        <button className="ctar-btn">✅ Get Instant Access At ₹199!</button>
       </div>
     </div>
   );

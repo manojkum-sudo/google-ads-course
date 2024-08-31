@@ -24,41 +24,38 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "What Do You Mean by Facebook & Instagram Ads Marketing?",
+      question: "What Are Google Ads?",
       answer:
-        "With Facebook & Instagram Ads Marketing, you can create and run campaigns using simple self-serve tools, and track their performance with easy-to-read reports whether that’s on Facebook, Instagram, Messenger, Audience Network or across them all. More than two billion people use Facebook every month – so no matter what kind of audience you want to reach, you’ll find them here.",
+        "Google Ads is a digital advertising platform by Google that allows businesses worldwide to promote their products and services online.",
     },
     {
-      question: "Who Can Join This Course?",
+      question: "What Are The Benefits Of Using Google Ads?",
       answer:
-        "Our training program is specially designed for Under-Graduates, Graduates, Working Professionals, Freelancers, Housewives, and Entrepreneurs. In this Facebook & Instagram with AI Tools you are going to learn each and every content in depth for Creating a winning career for every profile.",
+        "Using Google Ads allows you to promote products and services across a vast network of websites, reaching millions of potential customers. This extensive visibility enhances brand awareness and helps businesses drive substantial revenue.",
     },
     {
-      question:
-        "Is Facebook & Instagram Ads Expert or Specialist a Good Career?",
+      question: "How Will This Course Benefit My Career/Business?",
       answer:
-        "As per statistics, the Facebook & Instagram Ads Marketing industry is expected to grow substantially in upcoming years. Subsequently, a career in Facebook & Instagram Ads marketing promises high-paying salary packages and placement opportunities across the globe. Hence, a Facebook & Instagram Ads marketing career would be highly beneficial.",
+        "Google Ads is used by millions of companies, agencies, and start-ups worldwide. If you know how to run Google Ads, you can work as an expert in any of these organisations.",
     },
     {
-      question: "Do You Provide Any Certificates?",
+      question: "Who Should Attend This Course?",
       answer:
-        "Yes, we provide course completion certificates on successful completion of the Facebook & Instagram Ads with AI Tools",
+        "Established businesses exploring Google Ads to boost sales. and Ambitious individuals beginning their journey in digital marketing.",
     },
     {
-      question: "Is this course suitable for beginners in digital marketing?",
+      question: "How Will I Get This Course?",
       answer:
-        "Absolutely! Our course is designed to cater to individuals at all skill levels, including beginners. We start with the basics and gradually progress to more advanced topics, ensuring that everyone can follow along and benefit from the content.",
+        "Upon completing the payment process, you will receive an email confirmation from our team within 5 minutes. Then, you can use your login credentials to access the course on the Dashboard, where you can learn at your own pace and convenience.",
     },
     {
-      question:
-        "How will this course help me improve my Facebook and Instagram advertising skills?",
+      question: "Will I Receive A Certificate Upon Completion Of The Course?",
       answer:
-        "Our course provides comprehensive training on all aspects of Facebook and Instagram advertising, including ad creation, targeting, campaign optimization, and performance tracking. You’ll learn proven strategies and techniques to maximize your ad effectiveness and achieve your marketing goals.",
+        "Upon completing the course, you will receive a certificate of completion which you can download from your Dashboard. Email us at skilltolearn@gmail.com",
     },
     {
-      question: "Do you offer any support or assistance during the course?",
-      answer:
-        "Absolutely! Our  instructor is here to support you every step of the way through our instructor chat support feature.",
+      question: "What is the course language?",
+      answer: "The course language is Hindi.",
     },
   ];
 

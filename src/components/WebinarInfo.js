@@ -6,9 +6,9 @@ const WebinarInfo = () => {
     <div className="container">
       <h1 className="main-heading">WHAT IF WE TELL YOU...</h1>
       <p className="sub-heading">
-        You can set up & Run Profitable Google Ads to sell Your Products or
-        Services online without hiring Any Expensive Freelancer or Agency or
-        Spending Lakhs of Rupees on trial and error.
+        Learn how to set up and run profitable Google Ads to sell your products
+        or services online, without the need to hire expensive freelancers or
+        agencies, and avoid spending a fortune on trial and error.
       </p>
       <button className="cta-button">
         Join the Advanced Google Ads Masterclass Now
@@ -58,7 +58,7 @@ const WebinarInfo = () => {
       <h2 className="footer-heading">
         ELEVATE YOUR ONLINE PRESENCE WITH ADVANCED GOOGLE ADS STRATEGIES TODAY!
       </h2>
-      <button className="price-button">Get Instant Access At ₹1499!</button>
+      <button className="price-button">Get Instant Access At ₹199!</button>
     </div>
   );
 };
