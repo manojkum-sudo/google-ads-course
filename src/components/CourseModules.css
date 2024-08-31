@@ -70,4 +70,8 @@
   .module h3 {
     margin-bottom: 30px;
   }
+
+  .course-title {
+    font-size: 25px;
+  }
 }

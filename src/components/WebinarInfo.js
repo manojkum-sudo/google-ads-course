@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  FaChartLine,
+  FaUserGraduate,
+  FaBullhorn,
+  FaDollarSign,
+} from "react-icons/fa";
 import "./WebinarInfo.css";
 
 const WebinarInfo = () => {
@@ -18,9 +24,9 @@ const WebinarInfo = () => {
 
       <div className="learn-cards">
         <div className="card">
-          <img
-            src="https://via.placeholder.com/50"
-            alt="Learn to Use Google Ads"
+          <FaChartLine
+            style={{ marginRight: 10, color: "#3498db" }}
+            size={40}
           />
           <p>
             <span>Learn to Use Google Ads </span> <br /> to 3X Your Business
@@ -28,27 +34,28 @@ const WebinarInfo = () => {
           </p>
         </div>
         <div className="card">
-          <img src="https://via.placeholder.com/50" alt="Learn Google Ads" />
+          <FaUserGraduate
+            size={40}
+            style={{ marginRight: 10, color: "#3498db" }}
+          />
           <p>
             <span> Learn Google Ads</span> <br /> from EX Google & IIM Kozhikode
             Alumni with over 8 years of exp running Google ads
           </p>
         </div>
         <div className="card">
-          <img
-            src="https://via.placeholder.com/50"
-            alt="Reach the Right Audience"
-          />
+          <FaBullhorn size={40} style={{ marginRight: 10, color: "#3498db" }} />
           <p>
-            {" "}
             <span>Reach the Right Audience</span> <br /> Who Will Buy Your
             Products & Services
           </p>
         </div>
         <div className="card">
-          <img src="https://via.placeholder.com/50" alt="Use Google Ads" />
+          <FaDollarSign
+            size={40}
+            style={{ marginRight: 10, color: "#3498db" }}
+          />
           <p>
-            {" "}
             <span>Use Google Ads </span> <br /> to Achieve High Returns on Your
             Investments
           </p>

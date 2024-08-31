@@ -60,11 +60,15 @@
 
 @media (max-width: 480px) {
   .promo-title {
-    font-size: 20px;
+    font-size: 1.5rem;
   }
 
   .promo-text {
-    font-size: 14px;
+    font-size: 20px;
+  }
+
+  .highlighty {
+    font-size: 20px;
   }
 
   .ctaa-button {

@@ -99,4 +99,7 @@
   .highlightp {
     flex-basis: 100%;
   }
+  .call-to-action h3 {
+    font-size: 1.2rem;
+  }
 }
