@@ -22,7 +22,7 @@ const PromoSection = () => {
         Unlock the potential of Google Ads and watch your future growth soar!
       </p>
       <button className="ctaa-button">
-        <span>Get Instant Access At ₹199!</span>
+        <span>Get Instant Access At ₹399!</span>
       </button>
     </div>
   );

@@ -22,7 +22,7 @@ const CertificateSection = () => {
         SEIZE THE OPPORTUNITY! ELEVATE YOUR SKILLS WITH ADVANCED GOOGLE ADS
         MASTERY!
       </p>
-      <button className="cta-button">Get Instant Access At ₹199!</button>
+      <button className="cta-button">Get Instant Access At ₹399!</button>
     </div>
   );
 };

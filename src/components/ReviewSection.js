@@ -14,7 +14,7 @@ const ReviewSection = () => {
         Digital Success!
       </div>
       <div className="ctar-button">
-        <button className="ctar-btn">✅ Get Instant Access At ₹199!</button>
+        <button className="ctar-btn">✅ Get Instant Access At ₹399!</button>
       </div>
     </div>
   );

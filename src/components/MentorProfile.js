@@ -41,7 +41,7 @@ const MentorProfile = () => {
       </div>
       <div className="call-to-action">
         <h3>START LEARNING FROM MANOJ NOW!</h3>
-        <button className="ctat-button">✔️ Get Instant Access At ₹199!</button>
+        <button className="ctat-button">✔️ Get Instant Access At ₹399!</button>
       </div>
     </div>
   );
