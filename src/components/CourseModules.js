@@ -5,13 +5,11 @@ const CourseModules = () => {
   return (
     <div className="card-body">
       <div className="course-content">
-        <h2 className="course-title">
-          Take a look at what you'll get into once you enroll
-        </h2>
+        <h2 className="course-title">What will You Learn Inside?</h2>
         <div className="modules-container">
           <div className="module">
             <h3>
-              Module 1: <span>Google Ads Overview</span>
+              Module 1: <span>Introduction to the course</span>
             </h3>
             <ul>
               <li>Google Ads: Introduction</li>
@@ -22,7 +20,7 @@ const CourseModules = () => {
           </div>
           <div className="module">
             <h3>
-              Module 2: <span>Introduction to Keywords</span>
+              Module 2: <span>Domain & Hosting</span>
             </h3>
             <ul>
               <li>Keyword Research</li>
@@ -33,7 +31,7 @@ const CourseModules = () => {
           </div>
           <div className="module">
             <h3>
-              Module 3: <span> Introduction To Ads & Extensions</span>
+              Module 3: <span> Install WordPress</span>
             </h3>
             <ul>
               <li>RSA</li>
@@ -47,7 +45,7 @@ const CourseModules = () => {
           </div>
           <div className="module">
             <h3>
-              Module 4: <span>Bidding Strategies</span>
+              Module 4: <span>First Look of WordPress Dashboard</span>
             </h3>
             <ul>
               <li>Manual CPC</li>
@@ -65,7 +63,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 5: <span>Introduction to Display Network</span>
+              Module 5: <span>WordPress Post and Pagesk</span>
             </h3>
             <ul>
               <li>Placements</li>
@@ -80,7 +78,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 6: <span>Introduction to Conversion Tracking</span>
+              Module 6: <span>How to Write a Blog Post</span>
             </h3>
             <ul>
               <li>Conversion Tracking Overview</li>
@@ -94,7 +92,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 7: <span>Introduction to Remarketing</span>
+              Module 7: <span>How to Design Pages</span>
             </h3>
             <ul>
               <li>Remarketing Overview</li>
@@ -109,7 +107,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 8: <span>Introduction to Video Ads</span>
+              Module 8: <span> Menu & Widgets</span>
             </h3>
             <ul>
               <li>True View In-stream</li>
@@ -124,7 +122,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 9: <span> Introduction to Shopping Ads</span>
+              Module 9: <span> Responsive Website</span>
             </h3>
             <ul>
               <li>Shopping Campaign</li>
@@ -139,8 +137,7 @@ const CourseModules = () => {
             <h3>
               Module 10:{" "}
               <span>
-                Introduction to Mobile App Campaign,Smart Campaign, Discovery
-                Campaign
+              Home Page vs Landing pages
               </span>
             </h3>
             <ul>
@@ -153,7 +150,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 11: <span>Introduction to Reports</span>
+              Module 11: <span>SMTP Setup</span>
             </h3>
             <ul>
               <li>Generating Predefined Reports for Quick Analytics</li>
@@ -164,7 +161,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 12: <span>Introduction to Shared Library</span>
+              Module 12: <span>Elementor Pro Features</span>
             </h3>
             <ul>
               <li>Portfolio Bid Strategies</li>
@@ -176,7 +173,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 12: <span>Introduction to Bulk Actions</span>
+              Module 12: <span> Most Used WordPress Option</span>
             </h3>
             <ul>
               <li>Automated Rules</li>
@@ -186,7 +183,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 12: <span>Introduction to Planning</span>
+              Module 13: <span>SEO Plugin Setup & Monitor Live Traffic</span>
             </h3>
             <ul>
               <li>Keyword Planner</li>
@@ -196,7 +193,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              Module 12: <span>Google Ads Certifications</span>
+              Module 14: <span>WordPress Backup</span>
             </h3>
             <ul>
               <li>
@@ -211,7 +208,7 @@ const CourseModules = () => {
 
           <div className="module">
             <h3>
-              <span>Bonus Content</span>
+              <span>Bonus: How to Start Make Money</span>
             </h3>
             <ul>
               <li>Creating Google Ads using Bard</li>

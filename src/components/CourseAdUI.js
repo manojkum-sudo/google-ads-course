@@ -5,14 +5,14 @@ const CourseAdUI = () => {
   return (
     <div className="course-ad-container">
       <header className="headerr">
-        <p className="course-imagee">Advanced Google Ads Using AI Tools</p>
+        <p className="course-imagee">
+          Skill That Can Increase Your Earning By 4x-8x
+        </p>
         <h1>
-          Get{" "}
-          <span className="highlightw">
-            10X Website Traffic, Leads and Sales
-          </span>{" "}
-          for Your Business and Unlock Your Career{" "}
-          <span style={{ color: "#fffa65" }}>Growth!</span>
+          Build, Grow & Earn{" "}
+          <span className="highlightw">Your Ultimate WordPress</span> for Your
+          Business and Unlock Your Career{" "}
+          <span style={{ color: "#fffa65" }}>Journey Starts Here!!</span>
         </h1>
       </header>
       <section className="video-section">
@@ -37,7 +37,11 @@ const CourseAdUI = () => {
         </div>
       </section>
       <section className="pricing-section">
-        <h2>Lifetime Access & Updates</h2>
+        <h2>
+          Join Our Complete WordPress Beginners to Advanced Mastery Course,
+          Easily Create a Professional WordPress Website: No Experience or
+          Coding Necessary!
+        </h2>
         <button className="pricing-button">Get Instant Access At ₹399!</button>
       </section>
       <section className="features-section">

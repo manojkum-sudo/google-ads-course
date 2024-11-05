@@ -24,34 +24,29 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "What Are Google Ads?",
+      question: "Who Can Join this Course?",
       answer:
-        "Google Ads is a digital advertising platform by Google that allows businesses worldwide to promote their products and services online.",
+        "You do not need any skill to join this course, anyone who knows a little about operating a computer can join it.",
     },
     {
-      question: "What Are The Benefits Of Using Google Ads?",
+      question: "Will there be any doubt classes?",
       answer:
-        "Using Google Ads allows you to promote products and services across a vast network of websites, reaching millions of potential customers. This extensive visibility enhances brand awareness and helps businesses drive substantial revenue.",
+        "Yes, you will get doubt classes here, mostly doubt classes will be held on weekends, it depends on how many people are facing problems. Classes will be conducted accordingly",
     },
     {
-      question: "How Will This Course Benefit My Career/Business?",
+      question: "How to claim the free bonus?",
       answer:
-        "Google Ads is used by millions of companies, agencies, and start-ups worldwide. If you know how to run Google Ads, you can work as an expert in any of these organisations.",
+        "The bonuses are mentioned in the middle of the course. Since they are only for enrolled students, everything will be explained to you when you join the course.",
     },
     {
-      question: "Who Should Attend This Course?",
+      question: "Is coding knowledge required for this course?",
       answer:
-        "Established businesses exploring Google Ads to boost sales. and Ambitious individuals beginning their journey in digital marketing.",
+        "No, you do not need any kind of coding knowledge to do this course",
     },
     {
-      question: "How Will I Get This Course?",
+      question: "Is there any support option?",
       answer:
-        "Upon completing the payment process, you will receive an email confirmation from our team within 5 minutes. Then, you can use your login credentials to access the course on the Dashboard, where you can learn at your own pace and convenience.",
-    },
-    {
-      question: "Will I Receive A Certificate Upon Completion Of The Course?",
-      answer:
-        "Upon completing the course, you will receive a certificate of completion which you can download from your Dashboard. Email us at skilltolearn@gmail.com",
+        "Yes, you will be given solution to your problem through email and whatsapp support. And there will also be doubt classes on weekends in which you can ask your questions. info@skilltolearn.online",
     },
     {
       question: "What is the course language?",
